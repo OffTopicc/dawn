@@ -403,7 +403,7 @@ body {
     font-size: 21px !important;
 }
 
-#tabs i[sunny] { color: #fd6697; }
+#tabs i[sunny] { color: #fd6696; }
 
 #tabs i[cloudy] { color: #88d8d8; }
 
@@ -505,3 +505,4 @@ body {
     font-weight: 400;
     display: none;
 }
+
