@@ -10,7 +10,7 @@ USAGE: strftime('H:M p - A') => 21:32 AM - Thursday
        strftime('m/b/Y')     => 1/Jan/2018
        strtime('do B Y')     => 18th January 2018
 */
-const strftime = (format = 'c') => {
+const strftime = (format = 'm/b/Y'') => {
   Number.prototype.pad = function(n = 2) {
     return (Array(n).join('0') + this).substr(-n);
   };
